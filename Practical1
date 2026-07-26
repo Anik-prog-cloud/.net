@@ -1,1 +1,69 @@
+using System;
 
+namespace StudentAdmissionManagement
+{
+    class Student
+    {
+        // Private data members
+        private int studentId;
+        private string studentName;
+        private int age;
+        private string course;
+
+        // Default Constructor
+        public Student()
+        {
+            Console.WriteLine("Student Admission Module Started");
+        }
+
+        // Parameterized Constructor
+        public Student(int id, string name, int age, string course)
+        {
+            studentId = id;
+            studentName = name;
+            this.age = age;
+            this.course = course;
+        }
+
+        // Method to Display Student Details
+        public void DisplayDetails()
+        {
+            Console.WriteLine("\n----- Student Admission Details -----");
+            Console.WriteLine("Student ID : " + studentId);
+            Console.WriteLine("Name       : " + studentName);
+            Console.WriteLine("Age        : " + age);
+            Console.WriteLine("Course     : " + course);
+        }
+
+        // Method to Update Course
+        public void UpdateCourse(string newCourse)
+        {
+            course = newCourse;
+            Console.WriteLine("\nCourse Updated Successfully!");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Calling Default Constructor
+            Student temp = new Student();
+
+            // Creating Object using Parameterized Constructor
+            Student student1 = new Student(101, "Anik", 21, "BCA");
+
+            // Display Details
+            student1.DisplayDetails();
+
+            // Update Course
+            student1.UpdateCourse("MCA");
+
+            // Display Updated Details
+            student1.DisplayDetails();
+
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
