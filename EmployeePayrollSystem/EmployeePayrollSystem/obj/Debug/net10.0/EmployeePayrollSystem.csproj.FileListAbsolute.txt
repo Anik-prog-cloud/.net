@@ -1,0 +1,14 @@
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\bin\Debug\net10.0\EmployeePayrollSystem.exe
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\bin\Debug\net10.0\EmployeePayrollSystem.deps.json
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\bin\Debug\net10.0\EmployeePayrollSystem.runtimeconfig.json
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\bin\Debug\net10.0\EmployeePayrollSystem.dll
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\bin\Debug\net10.0\EmployeePayrollSystem.pdb
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\EmployeePayrollSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\EmployeePayrollSystem.AssemblyInfoInputs.cache
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\EmployeePayrollSystem.AssemblyInfo.cs
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\EmployeePayrollSystem.csproj.CoreCompileInputs.cache
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\EmployeePayrollSystem.dll
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\refint\EmployeePayrollSystem.dll
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\EmployeePayrollSystem.pdb
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\EmployeePayrollSystem.genruntimeconfig.cache
+E:\vscc\EmployeePayrollSystem\EmployeePayrollSystem\obj\Debug\net10.0\ref\EmployeePayrollSystem.dll
