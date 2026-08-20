@@ -1,0 +1,32 @@
+﻿## Visual Studio and .NET Framework
+## Ignore build outputs
+bin/
+obj/
+Debug/
+Release/
+
+## Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+## Rider
+.idea/
+
+## NuGet
+packages/
+*.nupkg
+*.snupkg
+
+## Web
+node_modules/
+bower_components/
+
+## Others
+*.log
+TestResults/
+*.cache
+_ReSharper*/
+*.DotSettings.user
