@@ -1,0 +1,14 @@
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\bin\Debug\net10.0\ExpenseTrackingSystem.exe
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\bin\Debug\net10.0\ExpenseTrackingSystem.deps.json
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\bin\Debug\net10.0\ExpenseTrackingSystem.runtimeconfig.json
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\bin\Debug\net10.0\ExpenseTrackingSystem.dll
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\bin\Debug\net10.0\ExpenseTrackingSystem.pdb
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\ExpenseTrackingSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\ExpenseTrackingSystem.AssemblyInfoInputs.cache
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\ExpenseTrackingSystem.AssemblyInfo.cs
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\ExpenseTrackingSystem.csproj.CoreCompileInputs.cache
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\ExpenseTrackingSystem.dll
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\refint\ExpenseTrackingSystem.dll
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\ExpenseTrackingSystem.pdb
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\ExpenseTrackingSystem.genruntimeconfig.cache
+E:\vscc\ExpenseTrackingSystem\ExpenseTrackingSystem\obj\Debug\net10.0\ref\ExpenseTrackingSystem.dll
