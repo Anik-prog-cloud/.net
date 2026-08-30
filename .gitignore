@@ -1,0 +1,50 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results (match bin/ and obj/ in any subfolder)
+**/bin/
+**/obj/
+bin/
+obj/
+
+# Visual Studio workspace
+/.vs/
+
+# Rider
+.idea/
+
+# MSTest test result files
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio cache/options
+
+# Web config transformations
+*.Publish.xml
+
+# Publish artifacts
+*.PublishDir
+
+# Others
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.log
+
+# Node modules (if any client side packages)
+node_modules/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
