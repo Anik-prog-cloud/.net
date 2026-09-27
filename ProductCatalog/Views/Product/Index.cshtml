@@ -1,0 +1,28 @@
+@model List<ProductCatalog.Models.Product>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .catalog { display:flex; flex-wrap:wrap; gap:16px; }
+    .card { border:1px solid #ddd; padding:12px; width:220px; border-radius:6px; box-shadow:2px 2px 6px rgba(0,0,0,0.03); }
+    .card h3 { margin:0 0 6px 0; font-size:18px; }
+    .card .meta { color:#666; font-size:13px; margin-bottom:8px; }
+    .card .price { font-weight:bold; margin-bottom:8px; }
+    .btn { display:inline-block; padding:6px 10px; background:#007bff; color:#fff; text-decoration:none; border-radius:4px; }
+</style>
+
+<h2>Product Catalog</h2>
+
+<div class="catalog">
+    @foreach (var p in Model)
+    {
+        <div class="card">
+            <h3>@p.Name</h3>
+            <div class="meta">@p.Category</div>
+            <div class="price">₹@p.Price</div>
+            @Html.ActionLink("View Details", "Details", "Product", new { id = p.Id }, new { @class = "btn" })
+        </div>
+    }
+</div>
