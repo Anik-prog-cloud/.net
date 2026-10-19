@@ -1,0 +1,40 @@
+@model IEnumerable<FeedbackManagement.Models.Feedback>
+
+@{
+    ViewBag.Title = "Feedback List";
+}
+
+<h2>Feedback List</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+<p>
+    @Html.ActionLink("Add Feedback", "Create", "Feedback", null, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Rating</th>
+            <th>Comments</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Email</td>
+                <td>@(item.Rating + " / 5")</td>
+                <td>@item.Comments</td>
+            </tr>
+        }
+    </tbody>
+</table>
