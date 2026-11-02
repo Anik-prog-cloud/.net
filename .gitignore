@@ -1,0 +1,57 @@
+## Visual Studio and .NET Framework
+## Ignore build outputs
+**/bin/
+**/obj/
+bin/
+obj/
+Debug/
+Release/
+
+## Visual Studio workspace
+/.vs/
+.vs/
+
+## Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## Rider
+.idea/
+
+## NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+## Web
+node_modules/
+bower_components/
+
+## MSTest test result files
+TestResults/
+
+## Others
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.log
+*.cache
+
+## Visual Studio cache/options
+*.VC.db
+*.VC.VC.opendb
+
+## Web config transformations
+*.Publish.xml
+
+## Publish artifacts
+*.PublishDir
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user

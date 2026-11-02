@@ -1,0 +1,7 @@
+E:\vscc\StudentAdmissionManagement\StudentAdmissionManagement\bin\Debug\StudentAdmissionManagement.exe.config
+E:\vscc\StudentAdmissionManagement\StudentAdmissionManagement\bin\Debug\StudentAdmissionManagement.exe
+E:\vscc\StudentAdmissionManagement\StudentAdmissionManagement\bin\Debug\StudentAdmissionManagement.pdb
+E:\vscc\StudentAdmissionManagement\StudentAdmissionManagement\obj\Debug\StudentAdmissionManagement.csproj.AssemblyReference.cache
+E:\vscc\StudentAdmissionManagement\StudentAdmissionManagement\obj\Debug\StudentAdmissionManagement.csproj.CoreCompileInputs.cache
+E:\vscc\StudentAdmissionManagement\StudentAdmissionManagement\obj\Debug\StudentAdmissionManagement.exe
+E:\vscc\StudentAdmissionManagement\StudentAdmissionManagement\obj\Debug\StudentAdmissionManagement.pdb
