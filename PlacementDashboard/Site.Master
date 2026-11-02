@@ -1,0 +1,1 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="PlacementDashboard.Site" %><!DOCTYPE html><html><head runat="server"><title>Placement Dashboard</title><link href="Content/Style.css" rel="stylesheet" /></head><body><form runat="server"><asp:ContentPlaceHolder ID="MainContent" runat="server" /></form></body></html>

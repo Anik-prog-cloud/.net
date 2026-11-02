@@ -1,0 +1,1 @@
+namespace PlacementDashboard.Admin { public partial class Dashboard { protected global::System.Web.UI.WebControls.GridView StudentsGrid; protected global::System.Web.UI.WebControls.Label TotalStudents; protected global::System.Web.UI.WebControls.Label PlacedStudents; protected global::System.Web.UI.WebControls.Label NotPlacedStudents; } }

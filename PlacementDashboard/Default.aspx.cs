@@ -1,0 +1,1 @@
+﻿using System; namespace PlacementDashboard { public partial class Default : System.Web.UI.Page { protected void Page_Load(object sender, EventArgs e) { if (!IsPostBack) { Response.Redirect("~/Admin/Dashboard.aspx", false); Context.ApplicationInstance.CompleteRequest(); } } } }
