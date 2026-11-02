@@ -1,0 +1,29 @@
+@model Inventory_Management_Module.Models.Product
+
+@{
+    ViewBag.Title = "Product Details";
+}
+
+<h2>Product Details</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.ProductId)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.ProductId)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.ProductName)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.ProductName)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Quantity)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Quantity)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Price)</dt>
+        <dd class="col-sm-9">@Model.Price.ToString("N2")</dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProductId }, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+</p>
